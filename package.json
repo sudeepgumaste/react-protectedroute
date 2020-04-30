@@ -4,10 +4,15 @@
   "private": false,
   "main": "dist/ProtectedRoute.js",
   "module": "dist/ProtectedRoute.js",
+  "license": "MIT",
   "babel": {
     "presets": [
       "@babel/react"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudeepgumaste/react-protectedroute"
   },
   "dependencies": {
     "react": "^16.13.1",
