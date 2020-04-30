@@ -1,25 +1,25 @@
-# react-protectedroute
+# react-protected-route-component
 A simple react component that adds route protection functionaliity to Route component from react-router-dom  
 
 ## Install
 ```
-  npm install --save react-protectedroute
+  npm install --save react-protected-route-component
 
   or
 
-  yarn add react-protectedroute
+  yarn add react-protected-route-component
 
 ```
 
 ## Importing
 ```
-  import ProtectedRoute from 'react-protectedroute'
+  import ProtectedRoute from 'react-protected-route-component'
 ```
 
 ## Usage example
 ```
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import ProtectedRoute from "./ProtectedRoute";
+import ProtectedRoute from "react-protected-route-component";
 
 const Routes = () => {
   return (
@@ -53,11 +53,11 @@ export default Routes;
 
 
 ## Props (in addition to basic Route props)
-- #### guardFunction
+- guardFunction
     Function that returns boolean. If returned false, user will be redirected or component is accessable otherwise.
-
-- #### guardFunctionArgs
+<br>
+- guardFunctionArgs
     If the guard function requires args, pass the args as an object and use them accordingly.
-
-- #### redirect Route
+<br>
+- redirect Route
     Redirects the user to this route if guardFunction returns false
