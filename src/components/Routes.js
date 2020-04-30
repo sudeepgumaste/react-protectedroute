@@ -10,7 +10,9 @@ const Routes = () => {
         <ProtectedRoute
           path="/protected"
           redirectRoute="/"
-          guardFunction={() => {
+          guardFunctionArgs={{'one':'one'}}
+          guardFunction={(args) => {
+            console.log(args)
             const token = localStorage.getItem('authToken');
             if(token){
               return true;
