@@ -1,4 +1,8 @@
 # react-protected-route-component
+
+[![npm version](https://badge.fury.io/js/react-protected-route-component.svg)](https://badge.fury.io/js/react-protected-route-component)
+![NPM](https://img.shields.io/npm/l/react-protected-route-component)
+
 A simple react component that adds route protection functionaliity to Route component from react-router-dom  
 
 ## Install
